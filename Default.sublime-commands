@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "Search through the Internet",
+        "command": "sublime_internet_search"
+    },
+    {
+        "caption": "Preferences: SublimeInternetSearch Settings – Default",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/SublimeInternetSearch/SublimeInternetSearch.sublime-settings"
+        }
+    },
+    {
+        "caption": "Preferences: SublimeInternetSearch Settings – User",
+        "command": "open_file", "args":
+        {
+            "file": "${packages}/User/SublimeInternetSearch.sublime-settings"
+        }
+    }
+]
