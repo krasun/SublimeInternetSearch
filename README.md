@@ -6,7 +6,7 @@ A Sublime Text 3 plugin for easily search through the Internet.
 
 ## Installation & configuration
 
-Download [Package Control](https://sublime.wbond.net/installation) and use the Package Control: Install Package command from the command palette. Using Package Control ensures SublimeInternetSearch will stay up to date automatically.
+Download [Package Control](https://sublime.wbond.net/installation) and use the Package Control: Install Package command from the command palette. Using Package Control ensures `Internet Search` will stay up to date automatically.
 
 ### Using Google CSE API 
 
