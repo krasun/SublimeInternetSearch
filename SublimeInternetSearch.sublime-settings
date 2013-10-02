@@ -1,6 +1,6 @@
 {       
     // Valid options are "google_cse" and "duck_duck_go"
-    "preferred_search_engine": "google_cse",
+    "preferred_search_engine": "duck_duck_go",
 
     // Google Custom Search Engine API configuration 
     "google_cse": {

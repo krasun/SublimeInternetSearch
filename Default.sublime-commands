@@ -4,14 +4,14 @@
         "command": "sublime_internet_search"
     },
     {
-        "caption": "Preferences: SublimeInternetSearch Settings – Default",
+        "caption": "Preferences: Internet Search Settings – Default",
         "command": "open_file", "args":
         {
             "file": "${packages}/SublimeInternetSearch/SublimeInternetSearch.sublime-settings"
         }
     },
     {
-        "caption": "Preferences: SublimeInternetSearch Settings – User",
+        "caption": "Preferences: Internet Search Settings – User",
         "command": "open_file", "args":
         {
             "file": "${packages}/User/SublimeInternetSearch.sublime-settings"
