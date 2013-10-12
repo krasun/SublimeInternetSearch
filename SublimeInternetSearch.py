@@ -36,6 +36,10 @@ class SublimeInternetSearchCommand(sublime_plugin.WindowCommand):
             search_result = self.search_manager.search(query=user_input)
             self.last_search_result = search_result 
 
+            if len(search_result) == 0: 
+                sublime.error_message('SublimeInternetSearch: "No results. Maybe you have used stop words (e.g. boobs)."')                    
+                return
+
             # format 
             messages = self.__format_result_for_quick_panel(search_result)
 

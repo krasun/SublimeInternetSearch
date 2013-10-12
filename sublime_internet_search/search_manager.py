@@ -6,6 +6,8 @@ import sys
 import pickle
 # for path manipulation
 import os.path
+# for selecting cache directory
+import tempfile
 # for UNIX timestamp 
 import time
 # for "hashing" filenames`
@@ -55,13 +57,13 @@ class SearchManager:
     def search(self, query):
         try: 
             cache_ttl = self.settings.get('cache').get('ttl')
-            cache_file = os.path.dirname(os.path.realpath(__file__)) + '/../cache/' +  hashlib.sha224(str.encode(query)).hexdigest() + '.pickle'
+            cache_file = os.path.join(tempfile.gettempdir(), hashlib.sha224(str.encode(query)).hexdigest() + '.pickle')
 
             if cache_ttl != 0: 
                 if os.path.exists(cache_file): 
                     if (time.time() - os.path.getmtime(cache_file)) < cache_ttl: 
                         with open(cache_file, 'rb') as f: 
-                            return pickle.load(f)
+                            return pickle.load(f)                            
                     else: 
                         os.remove(cache_file)
 
