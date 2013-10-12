@@ -23,9 +23,9 @@ your own [developer key](https://developers.google.com/custom-search/v1/getting_
 }
 ```
 
-## How It Works
+## Using It
 
-I'm so lazy to describe how it works, so just see:
+I'm so lazy to describe how it works, so just see an example:
 
 ![Screenshot](https://github.com/krasun/SublimeInternetSearch/blob/master/screenshot.png?raw=true "Screenshot")
 
