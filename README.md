@@ -27,8 +27,8 @@ your own [developer key](https://developers.google.com/custom-search/v1/getting_
 
 I'm so lazy to describe how it works, so just see an example:
 
-![Screenshot](https://github.com/krasun/SublimeInternetSearch/blob/master/screenshot.png?raw=true "Screenshot")
+![Screenshot](screenshot.png?raw=true "Screenshot")
 
 ## License
 
-This plugin is under the MIT license. See the complete license [here](https://github.com/krasun/SublimeInternetSearch/blob/master/LICENSE).
+This plugin is under the MIT license. See the complete license [here](LICENSE).
